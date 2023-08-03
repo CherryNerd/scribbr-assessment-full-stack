@@ -1,12 +1,16 @@
-import { APP_TITLE } from "@scribbr-assessment-full-stack/common";
-import React, { useState } from "react";
+import React from "react";
 import './index.css';
+import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
+import Home from "@scribbr-assessment-full-stack/client/src/Home";
+
+const queryClient = new QueryClient();
+
 
 export function App() {
-  return (
-    <div>
-      <h1 className={"text-3xl font-bold underline"}>Welcome to {APP_TITLE}!</h1>
-      <p>This would be probably the starting point of your app.</p>
-    </div>
-  );
+
+    return (
+        <QueryClientProvider client={queryClient}>
+            <Home/>
+        </QueryClientProvider>
+    );
 }

@@ -14,10 +14,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@automapper/core": "^8.7.7",
+    "@automapper/pojos": "^8.7.7",
     "@scribbr-assessment-full-stack/common": "*",
+    "body-parser": "^1.20.2",
     "cors": "2.8.5",
     "express": "4.18.2",
-    "node-fetch": "2"
+    "node-fetch": "2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/cors": "2.8.13",
