@@ -58,6 +58,8 @@ To get started, run the following commands:
 
 ```sh
 yarn install // Install dependencies
+yarn dev // Run first boot to prevent server error "Error: Cannot find module './index.js'"
+# Stop the process with Ctrl + C or Cmd + C
 yarn dev // Start the project in development mode
 yarn build // Build the project for production
 yarn test // Run tests
