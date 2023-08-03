@@ -12,7 +12,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.16",
     "@scribbr-assessment-full-stack/common": "*",
+    "@tanstack/react-query": "^4.32.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
